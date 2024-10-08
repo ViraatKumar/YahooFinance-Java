@@ -1,8 +1,8 @@
 package com.YahooFinance.scapper.helper;
 
 public class Period {
-    String fromDate;
-    String toDate;
+    public String fromDate;
+    public String toDate;
 
     public Period(String from_date, String to_date) {
         this.fromDate = from_date;
